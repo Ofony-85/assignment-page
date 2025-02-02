@@ -1,0 +1,31 @@
+/* Basic css for the page */
+body{
+    background-color: rgb(39,39,39);
+}
+.otter-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20%;
+}
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 18%;
+    background-color: #fff;
+    padding: 70px 30px 30px 30px;
+    border-radius: 7px;
+    position: relative;
+}
+.title{
+    background-color: rgb(255, 21, 130);
+    position: absolute;
+    top: -30px;
+    border-radius: 7px;
+    font-weight: bold;
+    padding: 20px 35px 20px 35px;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
